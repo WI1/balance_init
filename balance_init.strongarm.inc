@@ -8,6 +8,7 @@ function balance_init_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+<<<<<<< HEAD
   $strongarm->name = 'admin_menu_devel_modules_enabled';
   $strongarm->value = array(
     'views_ui' => 'views_ui',
@@ -2020,5 +2021,39 @@ user/*/*';
   $strongarm->value = 1;
 
   $export['views_ui_query_on_top'] = $strongarm;
+=======
+  $strongarm->name = 'clean_url';
+  $strongarm->value = 1;
+
+  $export['clean_url'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'nice_menus_depth_1';
+  $strongarm->value = '-1';
+
+  $export['nice_menus_depth_1'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'nice_menus_menu_1';
+  $strongarm->value = 'primary-links:0';
+
+  $export['nice_menus_menu_1'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'nice_menus_name_1';
+  $strongarm->value = 'Nice menu 1';
+
+  $export['nice_menus_name_1'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'nice_menus_type_1';
+  $strongarm->value = 'down';
+
+  $export['nice_menus_type_1'] = $strongarm;
+>>>>>>> ae7a6d96c0e65f989e56d829a763115770ea6c4a
   return $export;
 }

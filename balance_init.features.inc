@@ -9,6 +9,7 @@ function balance_init_ctools_plugin_api() {
     return array("version" => 1);
   }
 }
+<<<<<<< HEAD
 
 /**
  * Implementation of hook_imagecache_default_presets().
@@ -226,3 +227,5 @@ function balance_init_imagecache_default_presets() {
   );
   return $items;
 }
+=======
+>>>>>>> ae7a6d96c0e65f989e56d829a763115770ea6c4a
