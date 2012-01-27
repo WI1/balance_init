@@ -11,6 +11,7 @@ function balance_init_user_default_permissions() {
     'name' => 'Use PHP input for field settings (dangerous - grant with care)',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -19,6 +20,7 @@ function balance_init_user_default_permissions() {
     'name' => 'access administration menu',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -27,6 +29,7 @@ function balance_init_user_default_permissions() {
     'name' => 'access administration pages',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -34,11 +37,10 @@ function balance_init_user_default_permissions() {
   $permissions['access all views'] = array(
     'name' => 'access all views',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'anonymous user',
-      '4' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'anonymous user',
+      '3' => 'authenticated user',
     ),
   );
 
@@ -46,10 +48,9 @@ function balance_init_user_default_permissions() {
   $permissions['access comments'] = array(
     'name' => 'access comments',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'authenticated user',
     ),
   );
 
@@ -57,11 +58,10 @@ function balance_init_user_default_permissions() {
   $permissions['access content'] = array(
     'name' => 'access content',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'anonymous user',
-      '4' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'anonymous user',
+      '3' => 'authenticated user',
     ),
   );
 
@@ -70,6 +70,7 @@ function balance_init_user_default_permissions() {
     'name' => 'access feedback form',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -77,11 +78,10 @@ function balance_init_user_default_permissions() {
   $permissions['access site map'] = array(
     'name' => 'access site map',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'anonymous user',
-      '4' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'anonymous user',
+      '3' => 'authenticated user',
     ),
   );
 
@@ -90,6 +90,7 @@ function balance_init_user_default_permissions() {
     'name' => 'access site reports',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -98,17 +99,7 @@ function balance_init_user_default_permissions() {
     'name' => 'access statistics',
     'roles' => array(
       '0' => 'Site Administrators',
-    ),
-  );
-
-  // Exported permission: access tinymce imagemanager
-  $permissions['access tinymce imagemanager'] = array(
-    'name' => 'access tinymce imagemanager',
-    'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'authenticated user',
+      '1' => 'administrator',
     ),
   );
 
@@ -117,6 +108,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer actions',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -125,6 +117,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer advanced pane settings',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -133,6 +126,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer blocks',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -141,6 +135,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer comments',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -149,6 +144,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer content types',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -157,6 +153,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer files',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -165,6 +162,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer filters',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -173,6 +171,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer imageapi',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -181,6 +180,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer imagecache',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -189,6 +189,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer imports',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -197,6 +198,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer languages',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -205,6 +207,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer ldap modules',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -213,6 +216,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer masquerade',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -221,6 +225,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer menu',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -229,6 +234,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer mini panels',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -237,6 +243,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer nodes',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -245,6 +252,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer page manager',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -253,6 +261,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer pane access',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -261,6 +270,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer pane visibility',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -269,6 +279,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer panel-nodes',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -277,6 +288,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer panels layouts',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -285,6 +297,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer pathauto',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -293,6 +306,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer piwik',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -301,6 +315,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer redirects',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -309,6 +324,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer rules',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -317,6 +333,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer site configuration',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -324,8 +341,8 @@ function balance_init_user_default_permissions() {
   $permissions['administer taxonomy'] = array(
     'name' => 'administer taxonomy',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Site Administrators',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -334,6 +351,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer unfuddle api configuration',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -342,14 +360,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer url aliases',
     'roles' => array(
       '0' => 'Site Administrators',
-    ),
-  );
-
-  // Exported permission: administer varnish
-  $permissions['administer varnish'] = array(
-    'name' => 'administer varnish',
-    'roles' => array(
-      '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -358,6 +369,7 @@ function balance_init_user_default_permissions() {
     'name' => 'administer views',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -365,10 +377,9 @@ function balance_init_user_default_permissions() {
   $permissions['create images'] = array(
     'name' => 'create images',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'authenticated user',
     ),
   );
 
@@ -377,6 +388,7 @@ function balance_init_user_default_permissions() {
     'name' => 'create mini panels',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -385,6 +397,7 @@ function balance_init_user_default_permissions() {
     'name' => 'create panel-nodes',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -393,6 +406,7 @@ function balance_init_user_default_permissions() {
     'name' => 'create url aliases',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -401,6 +415,7 @@ function balance_init_user_default_permissions() {
     'name' => 'delete any images',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -409,6 +424,7 @@ function balance_init_user_default_permissions() {
     'name' => 'delete any panel-nodes',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -416,10 +432,9 @@ function balance_init_user_default_permissions() {
   $permissions['delete own images'] = array(
     'name' => 'delete own images',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'authenticated user',
     ),
   );
 
@@ -428,6 +443,7 @@ function balance_init_user_default_permissions() {
     'name' => 'delete own panel-nodes',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -436,6 +452,7 @@ function balance_init_user_default_permissions() {
     'name' => 'display drupal links',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -444,6 +461,7 @@ function balance_init_user_default_permissions() {
     'name' => 'edit any images',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -452,6 +470,7 @@ function balance_init_user_default_permissions() {
     'name' => 'edit any panel-nodes',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -459,10 +478,9 @@ function balance_init_user_default_permissions() {
   $permissions['edit own images'] = array(
     'name' => 'edit own images',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'authenticated user',
     ),
   );
 
@@ -471,6 +489,7 @@ function balance_init_user_default_permissions() {
     'name' => 'edit own panel-nodes',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -479,6 +498,7 @@ function balance_init_user_default_permissions() {
     'name' => 'execute unlink files',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -487,6 +507,7 @@ function balance_init_user_default_permissions() {
     'name' => 'export bulk nodes',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -495,6 +516,7 @@ function balance_init_user_default_permissions() {
     'name' => 'export node',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -503,6 +525,7 @@ function balance_init_user_default_permissions() {
     'name' => 'export own nodes',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -511,6 +534,7 @@ function balance_init_user_default_permissions() {
     'name' => 'flush imagecache',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -519,6 +543,7 @@ function balance_init_user_default_permissions() {
     'name' => 'grant content access',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -527,6 +552,7 @@ function balance_init_user_default_permissions() {
     'name' => 'grant own content access',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -535,6 +561,7 @@ function balance_init_user_default_permissions() {
     'name' => 'import content',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -543,6 +570,7 @@ function balance_init_user_default_permissions() {
     'name' => 'manage features',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -551,6 +579,7 @@ function balance_init_user_default_permissions() {
     'name' => 'masquerade as admin',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -559,6 +588,7 @@ function balance_init_user_default_permissions() {
     'name' => 'masquerade as user',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -567,6 +597,7 @@ function balance_init_user_default_permissions() {
     'name' => 'notify of path changes',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -575,6 +606,7 @@ function balance_init_user_default_permissions() {
     'name' => 'opt-in or out of tracking',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -582,10 +614,9 @@ function balance_init_user_default_permissions() {
   $permissions['post comments'] = array(
     'name' => 'post comments',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'authenticated user',
     ),
   );
 
@@ -593,10 +624,9 @@ function balance_init_user_default_permissions() {
   $permissions['post comments without approval'] = array(
     'name' => 'post comments without approval',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'authenticated user',
     ),
   );
 
@@ -604,10 +634,8 @@ function balance_init_user_default_permissions() {
   $permissions['revert revisions'] = array(
     'name' => 'revert revisions',
     'roles' => array(
-      '0' => 'Documentation User',
-      '1' => 'Project Administrators',
-      '2' => 'Project Members',
-      '3' => 'Site Administrators',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -616,6 +644,7 @@ function balance_init_user_default_permissions() {
     'name' => 'select different theme',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -624,6 +653,7 @@ function balance_init_user_default_permissions() {
     'name' => 'translate interface',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -631,10 +661,9 @@ function balance_init_user_default_permissions() {
   $permissions['upload files'] = array(
     'name' => 'upload files',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'authenticated user',
     ),
   );
 
@@ -643,6 +672,7 @@ function balance_init_user_default_permissions() {
     'name' => 'use PHP for block visibility',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -651,6 +681,7 @@ function balance_init_user_default_permissions() {
     'name' => 'use PHP for tracking visibility',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -659,6 +690,7 @@ function balance_init_user_default_permissions() {
     'name' => 'use PHP to import nodes',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -667,6 +699,7 @@ function balance_init_user_default_permissions() {
     'name' => 'use page manager',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -675,6 +708,7 @@ function balance_init_user_default_permissions() {
     'name' => 'use panels caching features',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -683,6 +717,7 @@ function balance_init_user_default_permissions() {
     'name' => 'use panels dashboard',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -691,6 +726,7 @@ function balance_init_user_default_permissions() {
     'name' => 'use panels in place editing',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -699,6 +735,7 @@ function balance_init_user_default_permissions() {
     'name' => 'use views exporter',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -706,11 +743,10 @@ function balance_init_user_default_permissions() {
   $permissions['view all panes'] = array(
     'name' => 'view all panes',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'anonymous user',
-      '4' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'anonymous user',
+      '3' => 'authenticated user',
     ),
   );
 
@@ -719,14 +755,7 @@ function balance_init_user_default_permissions() {
     'name' => 'view feedback messages',
     'roles' => array(
       '0' => 'Site Administrators',
-    ),
-  );
-
-  // Exported permission: view imagecache 
-  $permissions['view imagecache '] = array(
-    'name' => 'view imagecache ',
-    'roles' => array(
-      '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -734,11 +763,10 @@ function balance_init_user_default_permissions() {
   $permissions['view imagecache frontvisual-10c-gr'] = array(
     'name' => 'view imagecache frontvisual-10c-gr',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'anonymous user',
-      '4' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'anonymous user',
+      '3' => 'authenticated user',
     ),
   );
 
@@ -746,11 +774,10 @@ function balance_init_user_default_permissions() {
   $permissions['view imagecache logo-small'] = array(
     'name' => 'view imagecache logo-small',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'anonymous user',
-      '4' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'anonymous user',
+      '3' => 'authenticated user',
     ),
   );
 
@@ -758,11 +785,10 @@ function balance_init_user_default_permissions() {
   $permissions['view imagecache pagevisual-7c-gr'] = array(
     'name' => 'view imagecache pagevisual-7c-gr',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'anonymous user',
-      '4' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'anonymous user',
+      '3' => 'authenticated user',
     ),
   );
 
@@ -770,11 +796,10 @@ function balance_init_user_default_permissions() {
   $permissions['view imagecache pic-1c-square'] = array(
     'name' => 'view imagecache pic-1c-square',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'anonymous user',
-      '4' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'anonymous user',
+      '3' => 'authenticated user',
     ),
   );
 
@@ -782,11 +807,10 @@ function balance_init_user_default_permissions() {
   $permissions['view imagecache pic_2c_square'] = array(
     'name' => 'view imagecache pic_2c_square',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'anonymous user',
-      '4' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'anonymous user',
+      '3' => 'authenticated user',
     ),
   );
 
@@ -794,11 +818,10 @@ function balance_init_user_default_permissions() {
   $permissions['view imagecache projectlogo_1-2c'] = array(
     'name' => 'view imagecache projectlogo_1-2c',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'anonymous user',
-      '4' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'anonymous user',
+      '3' => 'authenticated user',
     ),
   );
 
@@ -806,66 +829,9 @@ function balance_init_user_default_permissions() {
   $permissions['view imagecache projectlogo_1-3c'] = array(
     'name' => 'view imagecache projectlogo_1-3c',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'anonymous user',
-      '4' => 'authenticated user',
-    ),
-  );
-
-  // Exported permission: view imagecache projectlogo_9c
-  $permissions['view imagecache projectlogo_9c'] = array(
-    'name' => 'view imagecache projectlogo_9c',
-    'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'anonymous user',
-      '4' => 'authenticated user',
-    ),
-  );
-
-  // Exported permission: view imagecache reg
-  $permissions['view imagecache reg'] = array(
-    'name' => 'view imagecache reg',
-    'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'authenticated user',
-    ),
-  );
-
-  // Exported permission: view imagecache short
-  $permissions['view imagecache short'] = array(
-    'name' => 'view imagecache short',
-    'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'authenticated user',
-    ),
-  );
-
-  // Exported permission: view imagecache thumb
-  $permissions['view imagecache thumb'] = array(
-    'name' => 'view imagecache thumb',
-    'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'authenticated user',
-    ),
-  );
-
-  // Exported permission: view imagecache tiny
-  $permissions['view imagecache tiny'] = array(
-    'name' => 'view imagecache tiny',
-    'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'anonymous user',
       '3' => 'authenticated user',
     ),
   );
@@ -874,11 +840,10 @@ function balance_init_user_default_permissions() {
   $permissions['view imagecache userpic-1c-square'] = array(
     'name' => 'view imagecache userpic-1c-square',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'anonymous user',
-      '4' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'anonymous user',
+      '3' => 'authenticated user',
     ),
   );
 
@@ -886,11 +851,10 @@ function balance_init_user_default_permissions() {
   $permissions['view imagecache userpic_2c_portrait'] = array(
     'name' => 'view imagecache userpic_2c_portrait',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'anonymous user',
-      '4' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'anonymous user',
+      '3' => 'authenticated user',
     ),
   );
 
@@ -898,10 +862,9 @@ function balance_init_user_default_permissions() {
   $permissions['view original images'] = array(
     'name' => 'view original images',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'authenticated user',
     ),
   );
 
@@ -910,6 +873,7 @@ function balance_init_user_default_permissions() {
     'name' => 'view pane admin links',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -918,6 +882,7 @@ function balance_init_user_default_permissions() {
     'name' => 'view post access counter',
     'roles' => array(
       '0' => 'Site Administrators',
+      '1' => 'administrator',
     ),
   );
 
@@ -925,11 +890,9 @@ function balance_init_user_default_permissions() {
   $permissions['view revisions'] = array(
     'name' => 'view revisions',
     'roles' => array(
-      '0' => 'Documentation User',
-      '1' => 'Project Administrators',
-      '2' => 'Project Members',
-      '3' => 'Site Administrators',
-      '4' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'authenticated user',
     ),
   );
 
@@ -937,11 +900,10 @@ function balance_init_user_default_permissions() {
   $permissions['view uploaded files'] = array(
     'name' => 'view uploaded files',
     'roles' => array(
-      '0' => 'Project Administrators',
-      '1' => 'Project Members',
-      '2' => 'Site Administrators',
-      '3' => 'anonymous user',
-      '4' => 'authenticated user',
+      '0' => 'Site Administrators',
+      '1' => 'administrator',
+      '2' => 'anonymous user',
+      '3' => 'authenticated user',
     ),
   );
 
