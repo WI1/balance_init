@@ -225,13 +225,6 @@ function balance_init_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'GXNrVd5pgfh6OBm9EcPY';
-
-  $export['css_js_query_string'] = $strongarm;
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'db_maintenance_cron_frequency';
   $strongarm->value = '86400';
 
@@ -495,40 +488,6 @@ function balance_init_strongarm() {
   $strongarm->value = 0;
 
   $export['javascript_aggregator_jsminplus'] = $strongarm;
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'javascript_parsed';
-  $strongarm->value = array(
-    0 => 'misc/jquery.js',
-    1 => 'misc/drupal.js',
-    2 => 'sites/all/modules/admin_menu/admin_menu.js',
-    3 => 'sites/all/modules/feedback/feedback.js',
-    4 => 'sites/all/modules/nice_menus/superfish/js/superfish.js',
-    5 => 'sites/all/modules/nice_menus/superfish/js/jquery.bgiframe.min.js',
-    6 => 'sites/all/modules/nice_menus/superfish/js/jquery.hoverIntent.minified.js',
-    7 => 'sites/all/modules/nice_menus/nice_menus.js',
-    8 => 'sites/all/modules/panels/js/panels.js',
-    9 => 'misc/jquery.form.js',
-    10 => 'misc/ahah.js',
-    11 => 'sites/all/modules/features_plumber/features_plumber_ui/features_plumber_ui.js',
-    12 => 'sites/all/modules/features/features.js',
-    13 => 'misc/autocomplete.js',
-    14 => 'sites/all/themes/balance/scripts.js',
-    15 => 'sites/all/themes/balance/addthis_widget.js',
-    16 => 'misc/textarea.js',
-  );
-
-  $export['javascript_parsed'] = $strongarm;
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'js_redirect_mapping';
-  $strongarm->value = '[
-	{ "noscript": "/publikationen", "enhanced": "/publications-exhibit" }
-]';
-
-  $export['js_redirect_mapping'] = $strongarm;
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
@@ -1673,13 +1632,6 @@ user/*/*';
   $strongarm->value = 'userfeedback';
 
   $export['unfuddle_api_user'] = $strongarm;
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'update_last_check';
-  $strongarm->value = 1327678056;
-
-  $export['update_last_check'] = $strongarm;
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
