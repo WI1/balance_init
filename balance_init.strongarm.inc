@@ -268,14 +268,14 @@ function balance_init_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'file_directory_path';
-  $strongarm->value = 'sites/balanceonline.org/files';
+  $strongarm->value = 'sites/default/files';
 
   $export['file_directory_path'] = $strongarm;
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'file_directory_temp';
-  $strongarm->value = 'sites/balanceonline.org/files/tmp';
+  $strongarm->value = 'sites/default/files/tmp';
 
   $export['file_directory_temp'] = $strongarm;
   $strongarm = new stdClass;
@@ -1574,7 +1574,7 @@ user/*/*';
     'toggle_primary_links' => 1,
     'toggle_secondary_links' => 1,
     'default_logo' => 0,
-    'logo_path' => 'sites/balanceonline.org/files/balance_logo.jpg',
+    'logo_path' => 'sites/default/themes/balance/balance_logo.jpg',
     'logo_upload' => '',
     'default_favicon' => 1,
     'favicon_path' => '',
@@ -1618,7 +1618,7 @@ user/*/*';
     'logo_path' => '',
     'logo_upload' => '',
     'default_favicon' => 0,
-    'favicon_path' => 'sites/balanceonline.org/themes/balance/favicon.ico',
+    'favicon_path' => 'sites/default/themes/balance/favicon.ico',
     'favicon_upload' => '',
     'nice_menus_custom_css' => '',
   );
