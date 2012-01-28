@@ -233,7 +233,7 @@ function balance_init_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'db_maintenance_cron_last';
-  $strongarm->value = 1325611091;
+  $strongarm->value = 1327277352;
 
   $export['db_maintenance_cron_last'] = $strongarm;
   $strongarm = new stdClass;
@@ -268,7 +268,7 @@ function balance_init_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'file_directory_temp';
-  $strongarm->value = 'sites/default/files/tmp';
+  $strongarm->value = 'tmp';
 
   $export['file_directory_temp'] = $strongarm;
   $strongarm = new stdClass;
@@ -526,13 +526,6 @@ function balance_init_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'l10n_update_rebuild_projects';
-  $strongarm->value = 1;
-
-  $export['l10n_update_rebuild_projects'] = $strongarm;
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'language_count';
   $strongarm->value = 2;
 
@@ -552,7 +545,7 @@ function balance_init_strongarm() {
   'domain' => '',
   'prefix' => 'de',
   'weight' => '0',
-  'javascript' => '606aa5ad369bf9011845a298e6a55eec',
+  'javascript' => '394238e4964a6b9270ab95231281195f',
 );
 
   $export['language_default'] = $strongarm;
@@ -610,31 +603,42 @@ function balance_init_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_masks';
   $strongarm->value = array(
-    0 => 125,
-    1 => 63,
-    2 => 62,
-    3 => 61,
-    4 => 59,
-    5 => 58,
-    6 => 56,
-    7 => 44,
-    8 => 31,
-    9 => 30,
-    10 => 29,
-    11 => 25,
-    12 => 24,
-    13 => 23,
-    14 => 21,
-    15 => 15,
-    16 => 14,
-    17 => 13,
-    18 => 11,
-    19 => 7,
-    20 => 6,
-    21 => 5,
-    22 => 3,
-    23 => 2,
-    24 => 1,
+    0 => 127,
+    1 => 125,
+    2 => 116,
+    3 => 63,
+    4 => 62,
+    5 => 61,
+    6 => 60,
+    7 => 59,
+    8 => 58,
+    9 => 57,
+    10 => 56,
+    11 => 46,
+    12 => 45,
+    13 => 44,
+    14 => 31,
+    15 => 30,
+    16 => 29,
+    17 => 28,
+    18 => 25,
+    19 => 24,
+    20 => 23,
+    21 => 22,
+    22 => 21,
+    23 => 15,
+    24 => 14,
+    25 => 13,
+    26 => 12,
+    27 => 11,
+    28 => 10,
+    29 => 7,
+    30 => 6,
+    31 => 5,
+    32 => 4,
+    33 => 3,
+    34 => 2,
+    35 => 1,
   );
 
   $export['menu_masks'] = $strongarm;
@@ -1533,7 +1537,7 @@ user/*/*';
     'toggle_primary_links' => 1,
     'toggle_secondary_links' => 1,
     'default_logo' => 0,
-    'logo_path' => 'sites/default/themes/balance/balance_logo.jpg',
+    'logo_path' => 'sites/balanceonline.org/files/balance_logo.jpg',
     'logo_upload' => '',
     'default_favicon' => 1,
     'favicon_path' => '',
@@ -1577,7 +1581,7 @@ user/*/*';
     'logo_path' => '',
     'logo_upload' => '',
     'default_favicon' => 0,
-    'favicon_path' => 'sites/default/themes/balance/favicon.ico',
+    'favicon_path' => 'sites/balanceonline.org/themes/balance/favicon.ico',
     'favicon_upload' => '',
     'nice_menus_custom_css' => '',
   );
@@ -1792,7 +1796,16 @@ user/*/*';
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'views_block_hashes';
-  $strongarm->value = array();
+  $strongarm->value = array(
+    '14309ac2cc3ce817f2f8d998c5855cbe' => 'recent_posts_in_active_group-block_1',
+    '811dd875e0e1e44782d288ae407b4b1d' => 'recent_posts_in_active_group-block_3',
+    'b3f276cc6cf00d096b64b99f3d5b8234' => 'signup_available_signups-block_1',
+    '8d11182d17ad5887f019e4971a1050b6' => 'Veranstaltungen_vergangen-block_1',
+    'eeb666e0900a95233e1971fea3eeba9d' => 'bo_conference_workshop-calendar_block_1',
+    '88475539e51c633c7f20b81dba75fd50' => 'user_relationships_content-block_1',
+    '42e444a63ac6d5ea96dbe276a95f3e9a' => 'user_relationships_browser-block_1',
+    '5ccbaaf5f955b62d9cae0308418e4047' => 'user_relationships_browser-block_2',
+  );
 
   $export['views_block_hashes'] = $strongarm;
   $strongarm = new stdClass;

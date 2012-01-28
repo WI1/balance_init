@@ -86,9 +86,7 @@ veranstaltungen/balance-jahreskonferenz/zeitplan/*',
     'custom' => '0',
     'throttle' => '0',
     'visibility' => '0',
-    'pages' => 'node/add/dokuwiki
-veranstaltungen/balance-jahreskonferenz/zeitplan
-veranstaltungen/balance-jahreskonferenz/zeitplan/*',
+    'pages' => '',
     'title' => '',
     'cache' => '2',
   );
@@ -104,7 +102,7 @@ veranstaltungen/balance-jahreskonferenz/zeitplan/*',
     'throttle' => '0',
     'visibility' => '0',
     'pages' => '',
-    'title' => '<none>',
+    'title' => '',
     'cache' => '-1',
   );
 
